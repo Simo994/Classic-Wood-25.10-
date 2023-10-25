@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    height: 98px;
+    background-color: #3B3937;
+}
+
+.container{
+    width: 1530px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.container img{
+    width: 90px;
+    height: 43.013px;
+    margin-top: 19px;
+}
+
+.main-menu{
+    display: flex;
+    margin-top: 38px;
+}
+
+header li{
+    display: inline;
+    list-style-type: none;
+    padding-left: 36px;
+}
+
+header li a{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mail a, .number a{
+    color: #FFD6A8;
+    line-height: 120%;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.mail a{
+    padding-left: 75px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.number a{
+    padding-left: 100px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.banner{
+    position: relative;
+}
+
+.text_on_banner{
+    position: absolute;
+    top: 41px;
+    left: 583px;
+    width: 754px;
+    height: 754px;
+    border-radius: 754px;
+    background: rgba(34, 27, 21, 0.51);
+    text-align: center;
+    
+}
+
+.name_b{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+    color: #fff;
+    width: 433px;
+    margin: 167px auto 0;
+}
+
+.second_name_b{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.64px;
+    color: #FFD6A8;
+    margin-top: 17px;
+}
+
+.description_b{
+    font-size: 24px;
+    font-style: normal ;
+    font-weight: 700;
+    line-height: 130%;
+    color: #fff;
+    width: 584.514px;
+    margin: 35px auto 0;
+}
+
+.text_on_banner input{
+    width: 247.675px;
+    height: 82.558px;
+    background-color: #A9845C;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+    letter-spacing: 1.2px;
+    border: none;
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+.text_on_banner input:active{
+    background-color: #4e3d2a;
+}
+
+.container h2{
+    margin-top: 70px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 32px */
+    letter-spacing: -0.32px;
+    text-align: center;
+    
+}
+
+.products_grid{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+}
+
+.products_grid div{
+    width: 230px;
+    height: 230px;
+    background-color: rgba(255, 255, 255, 0.293);
+    border: solid black 1px ;
+}
+.products_grid div img{
+    width: 134px;
+    height: 133px;
+    margin-top: 60px ;
+    margin-left: 40px ;
+    
+}
